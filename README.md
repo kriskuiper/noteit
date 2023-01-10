@@ -20,4 +20,4 @@ yarn install
 
 ## Developing
 
-You can spin up a development server at [localhost:5173](localhost:5173) by running `yarn dev` or `npm run dev`.
+You can spin up a development server at [localhost:5173](http://localhost:5173) by running `yarn dev` or `npm run dev`.
