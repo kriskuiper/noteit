@@ -1,38 +1,23 @@
-# create-svelte
+# Noteit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+> 📝 Notion-like clone to learn SvelteKit for a bit and improve my front-end skills.
 
-## Creating a project
+## Prerequisites
 
-If you're seeing this, you've probably already done this step. Congrats!
+I run this application using Node v18.12 but you probably can run it on 16 something too. If you don't have v16 or v18 installed but do use [nvm](https://github.com/nvm-sh/nvm) just run:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+nvm use <version>
+```
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Installation
+
+Before developing you should install the dependencies using either `yarn` or `npm`.
+
+```bash
+yarn install
 ```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+You can spin up a development server at [localhost:5173](localhost:5173) by running `yarn dev` or `npm run dev`.
